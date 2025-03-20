@@ -1,5 +1,6 @@
 .{
-    .name = "mach-flac",
+    .name = .mach_flac,
+    .fingerprint = 0x4403a1b270932646,
     .version = "0.0.0",
     .paths = .{
         "examples",
@@ -13,12 +14,12 @@
     },
     .dependencies = .{
         .flac = .{
-            .url = "https://pkg.machengine.org/flac/3c65dca9d7c1dd21f619d4284a76d13436462196.tar.gz",
-            .hash = "1220c0d9b4fe9cac4015e45db8ecef55672c4cbfd4afe92cda53e1ae653a3615d79e",
+            .url = "git+https://github.com/Beyley/flac#23778b24973ceb8039d69bf48d5ee0d9dd90797c",
+            .hash = "N-V-__8AAHZPGgB5dV1Rs2cmKvqasq3onlvz3r3wdhQISI91",
         },
         .linux_audio_headers = .{
             .url = "https://pkg.machengine.org/linux-audio-headers/81f1f13828a8b62467200ba2a0b0d911c4d089a7.tar.gz",
-            .hash = "12209e63e7efddd85cca44cbb13d20ef30c72ff4c409372dd75a128a354b27e9dc4c",
+            .hash = "N-V-__8AAH1AHACeY-fv3dhcykTLsT0g7zDHL_TECTct11oS",
         },
     },
 }
